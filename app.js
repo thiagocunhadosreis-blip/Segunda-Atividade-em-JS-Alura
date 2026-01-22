@@ -46,7 +46,6 @@ function comecarOuChutarOuLista() {
     } else {
             tentativas++;
             chute = input.value;
-            quaisTentativas.push(chute);
             chute < nA ? suporteTitulo = 2 :
             chute > nA ? suporteTitulo = 3 :
             /*chute == nA ?*/ suporteTitulo = 4;
